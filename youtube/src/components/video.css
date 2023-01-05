@@ -1,0 +1,45 @@
+.video {
+    margin: 15px;
+    width: 280px;
+    height: 150px;   
+    overflow: hidden;
+    position: relative;
+    border-radius: 5%;
+    
+}
+
+.video:hover {
+	cursor: pointer;
+	transform: scale(1.2);
+}
+
+
+.video:hover {
+	opacity: 1;
+}
+
+.channelImg>img{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+    cursor: pointer;
+
+  }
+
+  .info {
+    display: flex;
+    flex-direction: row;
+    margin-left:20px
+  }
+
+  .data {
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 14px;
+  }
+p {
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 14px;
+    color: #696969
+
+  }

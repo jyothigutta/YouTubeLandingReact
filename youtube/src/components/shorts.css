@@ -1,0 +1,27 @@
+.shorts {
+    margin: 6px;
+    width: 300px;
+    height: 500px;   
+    overflow: hidden;
+    position: relative;
+    border-radius: 5%;
+    cursor: pointer;
+    
+}
+
+  .info {
+    display: flex;
+    flex-direction: row;
+    margin-left:20px
+  }
+
+  .data {
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 14px;
+  }
+p {
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 14px;
+    color: #696969
+
+  }

@@ -1,0 +1,199 @@
+
+.header {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    padding: 5px;
+    
+}
+
+
+.icon { 
+    height: 60%;
+    width: 15%;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+}
+
+.bar {
+    height: 100%;
+    width: 45%; 
+    cursor: pointer; 
+  
+
+}
+
+.bar>img {
+    height: 100%;
+    width: 30%;
+    border-radius: 40%; 
+    margin-top: 10%;   
+    margin-left: 30%;    
+}
+
+.bar>img:hover {
+    background:  #d0cfcf;
+    
+  }
+
+.youTube {
+    width:100%;
+    height: 40%;
+    cursor: pointer; 
+}
+
+.profileIcons{
+    width: 40%;     
+    margin: 10px;
+
+}
+
+
+.searchSection {    
+    width: 40%;
+    margin-top: 5px; 
+    align-items: center;
+    margin-left: 15%; 
+    
+    
+}
+
+.searchBar>input {    
+
+    font-size: 16px;
+	width: 100%;
+	position: relative;
+	top: 12px;
+	padding: 4px;
+    border-radius: 40px 0 0 40px;
+    border: 1px solid #ddd; 
+    box-shadow: rgb(171, 215, 236);
+    padding-top: 4.5px;
+    padding-bottom: 4.69px;
+    padding-left: 10px;
+    
+}
+
+
+.searchBar>.magniGlass {
+    /*
+    background-color: black;
+     */
+     float: right;
+	position: relative;
+	top: -17px;
+	height: 29px;
+	width: 40px;
+	left: 10px;
+    cursor: pointer;
+    border-radius:0 40px 40px 0;
+    border: 1px solid rgb(201, 215, 240);
+}
+
+.magniGlass>img:hover {
+    background:  #d0cfcf; 
+  }
+
+.mic {
+    height: 40px ;
+    width: 45px;
+    background-color:  #F2F2F2;
+    margin-left: 10px;
+    border-radius: 50%;
+    align-items: center;
+    position: absolute;
+    cursor: pointer; 
+    
+    
+}
+
+.mic > img{
+    object-fit:cover;
+    width:10px;
+    height:20px;
+    margin-top: 10px;
+    margin-left:20px;
+    cursor: pointer; 
+    border-radius: 50%;
+}
+
+.mic:hover {
+    background:  #d0cfcf;
+  }
+
+  .rightIcon:hover,.profile:hover {
+    background:  #d0cfcf;
+  }
+
+  .notIcon:hover {
+    background:  #d0cfcf;
+  }
+
+.rightIcon{
+    float:right;    
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.notIcon {
+    float: right;
+    justify-self: end;
+    height: 40px;
+    margin-left: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.notIcon > img{
+    
+    width:20px;
+    height:20px;
+    margin-top: 10px;
+    margin-left:10px;   
+    border-radius: 50%;
+}
+
+.rightIcon > img{
+    width:25px;
+    height:25px;
+    margin-top: 10px;
+    margin-left:10px;
+    object-fit: contain;
+    border-radius: 50%;
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+
+.profile {
+    float: right;
+    justify-self: end;
+    height: 40px;
+    margin-left: 20px;
+    border-radius: 50%;
+    cursor: pointer;   
+}
+
+.profile > img {
+    width:25px;
+    height:25px;
+    margin-top: 10px;
+    margin-left:10px;
+    object-fit: contain;
+    border-radius: 50%;
+    padding-bottom: 5px;
+    padding-right: 5px;
+
+}
+a {
+    text-decoration: none!important;
+    color: white;
+
+}
+
+.common {
+    display: flex;
+    flex-direction: row;
+}
